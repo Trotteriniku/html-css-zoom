@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+	--color-secondary: #222222;
+	--color-accessory-2: #4ac800;
+	--color-primary-accessory: #ffffff;
+	--color-accessory-3: #db241d;
+}
+
+/* UTILITY */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.flexer{
+    display: flex;
+}
+
+.wrapper{
+    flex-flow: row wrap;
+}
+/* UTILITY */
+
+/* MAIN */
+main{
+    background-color: rgb(255, 0, 0);
+}
+
+
+.box{
+    
+    width: calc(100vw / 7 );
+    height:calc(100vw / 7 );
+}
+/* MAIN */
