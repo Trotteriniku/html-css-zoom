@@ -13,7 +13,7 @@
 
 /* UTILITY */
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -28,17 +28,26 @@
 .wrapper{
     flex-flow: row wrap;
 }
+
 /* UTILITY */
 
 /* MAIN */
+
 main{
-    background-color: rgb(255, 0, 0);
+    padding-top: 50px;
+    height: calc(100vh - 90px);
+    background-color: rgba(0, 0, 0, 0.185);
 }
 
-
-.box{
+img{
+    width: 100%;
+    display: block;
+}
+.box{ 
     
-    width: calc(100vw / 7 );
-    height:calc(100vw / 7 );
+    width: calc(100% / 7 - 13px);
+    height: calc(100vh / 7 );
+    margin-bottom: 10px;
+    margin-left: 3px;
 }
 /* MAIN */
